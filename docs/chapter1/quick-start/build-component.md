@@ -7,7 +7,8 @@ After you've generated your awesome electrode app, you are ready to focus on wri
 Navigate to `<your-awesome-app>/src/client/components/home.jsx`:
 
 ```js
-import React, {PropTypes} from "react";
+import React from "react";
+import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {toggleCheck, incNumber, decNumber} from "../actions";
 
